@@ -1,0 +1,2603 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    padding: 0px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+body {
+    margin: 0px auto;
+    padding: 0px;
+    background: linear-gradient(177.92deg, #C2C5BE -4.33%, #DFCFB7 97.18%);
+
+}
+
+p {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+button {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+svg {
+    transition: .3s all ease;
+}
+
+figure {
+    margin: 0;
+}
+
+._toggler {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: transparent;
+}
+
+/*---------------
+header nav start 
+-----------------*/
+._photography_header_wrapper {
+    padding: 10px 0;
+}
+
+._photography_nav_wrapper {
+    padding: 20px 0;
+}
+
+._photography_header_nav_wrapper_list {
+    margin: 0 auto;
+    gap: 42px;
+}
+
+._photography_header_nav_wrapper_item_link {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color4) !important;
+    transition: .2s all ease;
+}
+
+._photography_header_nav_wrapper_item_link:hover {
+    color: var(--color3) !important;
+}
+
+._photography_nav_active_item_link {
+    color: var(--color3) !important;
+}
+
+._photography_header_nav_btn {
+    border: 0;
+}
+
+/*---------------------------------
+Photography header herosection start 
+-----------------------------------*/
+._photography_header_wrap {
+    padding: 90px 0;
+}
+
+._photography_hero_left_top_cont {
+    position: relative;
+}
+
+._photography_hero_left_title {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 1.2;
+    color: var(--color3);
+    max-width: 100%;
+    margin: 0 0 29px;
+}
+
+._photography_hero_shape {
+    position: absolute;
+    content: "";
+    top: -9px;
+    left: -30px;
+}
+
+._photography_hero_btn_link {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color3);
+    height: 61px;
+    border: 1.5px solid var(--color5);
+    border-radius: 45px;
+    padding: 0 55px;
+    transition: .2s all ease;
+}
+
+._photography_hero_btn_link:hover {
+    background-color: var(--color5) !important;
+    color: var(--color1) !important;
+}
+
+._photography_hero_middle_cont {
+    position: relative;
+}
+
+._photography_hero_middle_img_1 {
+    filter: drop-shadow(0px 19px 94px #AEA193);
+}
+
+._photography_hero_middle_video_bg_img {
+    position: absolute;
+    content: "";
+    top: 12px;
+    right: -33px;
+}
+
+._photography_hero_middle_video_img_btn {
+    border: 0;
+    position: relative;
+}
+._photography_video_img_span{
+    position: absolute;
+    content: "";
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+._photography_hero_scroll_down_wrap {
+    position: absolute;
+    content: "";
+    bottom: -28px;
+    left: 87px;
+    z-index: 2;
+}
+
+._photography_hero_scroll_down_cont {
+    position: relative;
+}
+
+._photography_hero_scroll_down_cont:before {
+    position: absolute;
+    content: "";
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 1px solid var(--color7);
+    z-index: -1;
+}
+
+._photography_hero_scroll_down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._photography_hero_scroll_down_link {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--color8) !important;
+    flex-direction: column;
+    text-align: center;
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+    border: 1px solid var(--color3);
+    background-color: var(--color3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._photography_hero_scroll_down_svg {
+    margin: 4px 0 0;
+}
+
+._photography_hero_right_cont {
+    padding: 50px 0 0;
+}
+
+._photography_hero_left_cont {
+    padding: 70px 0 0;
+}
+
+._photography_hero_right_title {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.2;
+    color: var(--color3);
+    max-width: 100%;
+    margin: 0 0 45px;
+    text-align: center;
+    position: relative;
+}
+
+._photography_hero_right_title::before {
+    position: absolute;
+    content: "";
+    width: 58px;
+    top: 16px;
+    left: 19px;
+    border: 2px solid var(--color6);
+    background-color: var(--color6);
+}
+
+._photography_hero_right_para {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color6);
+    max-width: 60%;
+    margin: 0 0 10px;
+}
+
+._photography_hero_right_img {
+    max-width: 270px;
+    margin: 0 0 0 auto;
+    filter: drop-shadow(0px 19px 94px #AEA193);
+}
+
+._photography_hero_right_btn {
+    position: relative;
+}
+
+._photography_hero_right_btn_shape_1 {
+    position: absolute;
+    content: "";
+    top: -78px;
+    left: 87px;
+}
+
+._photography_hero_right_btn_shape_2 {
+    position: absolute;
+    content: "";
+    bottom: 104px;
+    right: 229px;
+}
+
+._photography_hero_right_btn_link {
+    position: absolute;
+    content: "";
+    width: 245px;
+    height: 117px;
+    bottom: 28px;
+    left: 66px;
+    padding: 0 59px;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    color: var(--color1) !important;
+    background-color: var(--color5) !important;
+    transition: .2s all ease;
+}
+
+._photography_hero_right_btn_link:hover {
+    color: var(--color3) !important;
+    border: 1.5px solid var(--color5) !important;
+    background-color: transparent !important;
+}
+
+/*-------------------------
+Photography features 1 start
+---------------------------*/
+._photography_features_1_wrapper {
+    margin: 115px 0 98px;
+}
+
+._photography_features_1_cont {
+    background-color: var(--color3);
+    border-radius: 31px;
+    padding: 16px 88px 10px 120px;
+}
+
+._photography_features_1_left_title {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    color: var(--color5);
+    max-width: 81%;
+    position: relative;
+    margin: 0 0 0 auto;
+}
+
+._photography_features_1_left_title::before {
+    position: absolute;
+    content: "";
+    width: 66px;
+    top: 18px;
+    left: -76px;
+    border: 2px solid var(--color5);
+    background-color: var(--color5);
+}
+
+._photography_features_1_middle_cont {
+    display: flex;
+    align-items: flex-end;
+    gap: 11px;
+}
+
+._photography_features_1_right_cont {
+    position: relative;
+}
+
+._photography_features_1_right_title {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color9);
+    max-width: 75%;
+    padding: 0 0 40px;
+}
+
+._photography_features_1_right_cont_shape {
+    position: absolute;
+    content: "";
+    bottom: -32px;
+    right: 104px;
+}
+
+/*-------------------------------------
+Photography we are blessed to work start
+----------------------------------------*/
+._photography_blessed_work_wrapper {
+    margin: 0 0 158px;
+    position: relative;
+}
+
+._photography_blessed_work_top_cont {
+    position: relative;
+}
+
+._photography_blessed_work_shape {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    transform: translate(-53%, 50%);
+}
+
+._photography_blessed_work_top_title {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color3);
+    max-width: 25%;
+    margin: 0 auto 63px;
+}
+
+._photography_blessed_work_logo_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 110px;
+}
+
+._photography_blessed_work_slider_wrap {
+    margin: 98px 0 0;
+}
+
+._photography_blessed_work_img_details_cont {
+    position: relative;
+}
+
+._photography_blessed_work_img_grp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._photography_blessed_work_img {
+    border-radius: 119px;
+}
+
+._photography_blessed_work_bg_img {
+    position: relative;
+}
+
+._photography_blessed_work_bg_img::before {
+    position: absolute;
+    content: "";
+    width: 199px;
+    height: 271px;
+    border-radius: 119px;
+    box-shadow: 0px 21px 203px rgba(246, 107, 107, 0.4);
+}
+
+._photography_blessed_work_details {
+    margin: 47px 0 0;
+}
+
+._photography_blessed_work_txt {
+    font-family: 'Sora';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color3);
+    max-width: 49%;
+    margin: 0 auto;
+}
+
+.splide__pagination {
+    position: absolute;
+    width: 136px;
+    height: 20px;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color3);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+
+.splide__pagination__page {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid rgba(246, 107, 107, 0.4);
+    background-color: rgba(246, 107, 107, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.splide__pagination__page.is-active {
+    background-color: var(--color5);
+    border: 1px solid var(--color5);
+}
+
+._photography_blessed_work_slider_cont .is-active ._photography_blessed_work_img {
+    max-width: 523px;
+    width: 523px;
+    height: 538px;
+    border-radius: 235px;
+    object-fit: cover;
+    box-shadow: none !important;
+}
+
+._photography_blessed_work_slider_cont .is-active ._photography_blessed_work_bg_img::before {
+    box-shadow: none !important;
+}
+
+._photography_blessed_work_slider_cont .splide__list {
+    align-items: center;
+}
+
+._photography_blessed_work_video_img {
+    display: none;
+    opacity: 0;
+}
+
+._photography_blessed_work_slider_cont .is-active ._photography_blessed_work_video_img {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    content: "";
+    bottom: 82px;
+    right: -100px;
+    z-index: 2;
+}
+
+._photography_blessed_work_video_img_btn{
+    border: 0;
+    position: relative;
+}
+._photography_blessed_video_img_span{
+    position: absolute;
+    content: "";
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+/*-------------------------
+Photography features 2 start
+---------------------------*/
+._photography_features_2_wrapper {
+    margin: 0 0 210px;
+}
+
+._photography_features_2_top_cont {
+    margin: 0 0 46px;
+}
+
+._photography_features_2_top_left_cont {
+    position: relative;
+}
+
+._photography_features_2_shape {
+    position: absolute;
+    content: "";
+    top: 46px;
+    left: -30px
+}
+
+._photography_features_2_top_left_title {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    color: var(--color3);
+    max-width: 50%;
+}
+
+._photography_features_2_top_right_para {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color6);
+    max-width: 60%;
+    margin: 0 auto 0;
+}
+
+._photography_features_2_top_right_btn {
+    display: none;
+}
+
+._photography_features_2_slider_wrap {
+    position: relative;
+}
+
+._photography_features_2_card {
+    background: var(--bg1);
+    box-shadow: 0px 14px 160px var(--box-shadow1);
+    border-radius: 53px;
+}
+
+._photography_features_2_card_details {
+    padding: 27px 50px;
+}
+
+._photography_features_2_card_title {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    color: var(--color3);
+    margin: 0 0 5px;
+}
+
+._photography_features_2_card_smtitle {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color5);
+    max-width: 100%;
+    margin: 0 0 8px;
+}
+
+._photography_features_2_card_txt {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--bg4);
+    max-width: 72%;
+    border-top: 1px solid var(--border-1);
+    padding: 7px 0 0;
+}
+
+._photography_features_2_card_btm {
+    text-align: right;
+}
+
+._photography_features_2_card_price {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color3);
+}
+
+._photography_features_2_card_bg_img {
+    position: relative;
+}
+
+._photography_features_2_card_bg_img::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    bottom: -17px;
+    left: 0;
+    border-bottom: 1px solid #ADA797;
+}
+
+._photography_features_2_card_right_info {
+    position: absolute;
+    content: "";
+    bottom: 30px;
+    left: 192px;
+}
+
+._photography_features_2_card_right_txt {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color6);
+    margin: 0 auto;
+    max-width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._photography_features_2_card_details_show {
+    display: none;
+    opacity: 0;
+}
+
+._photography_features_2_slider_cont .is-active ._photography_features_2_card_details_show {
+    display: block;
+    opacity: 1;
+}
+
+._photography_features_2_slider_cont .is-active ._photography_features_2_card_bg_img::before {
+    border-bottom: 0;
+}
+
+._photography_features_2_slider_arrows {
+    position: absolute;
+    content: "";
+    bottom: 105px;
+    right: 277px;
+}
+
+._prv_btn {
+    display: none;
+}
+
+._nxt_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s all ease;
+    border: 0;
+    background-color: transparent;
+}
+
+._photography_blogs_all_photo_slider_cont .is-active ._photography_blogs_single_photo_img {
+    transform: rotate(0deg);
+}
+
+/*-------------------------
+Photography Services start
+---------------------------*/
+._photography_services_wrapper {
+    margin: 0 0 190px;
+}
+
+._photography_services_left_title_wrap {
+    position: relative;
+}
+
+._photography_services_left_title {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    color: var(--color3);
+    max-width: 87%;
+    margin: 0 0 33px;
+}
+
+._photography_services_shape {
+    position: absolute;
+    content: "";
+    top: 50px;
+    left: -32px;
+}
+
+._photography_services_left_para {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color6);
+    max-width: 72%;
+    margin: 0 0 24px;
+}
+
+._photography_services_left_btn_link {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color3) !important;
+    height: 61px;
+    border: 1.5px solid var(--color5) !important;
+    border-radius: 45px;
+    padding: 0 32px;
+    transition: .2s all ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._photography_services_left_btn_link:hover {
+    background-color: var(--color5) !important;
+    color: var(--color1) !important;
+}
+
+._photography_services_left_btn_link_span {
+    margin: 0 0 0 25px;
+}
+
+._photography_services_left_btn_link_span svg path {
+    transition: .2s all ease;
+}
+
+._photography_services_left_btn_link:hover ._photography_services_left_btn_link_span svg path {
+    stroke: var(--color1);
+}
+
+/*-------------------------
+Photography testmonails start
+---------------------------*/
+._photography_testmonails_wrapper {
+    margin: 0 0 159px;
+}
+
+._photography_testmonails_top_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 60px;
+}
+
+._photography_testmonails_top_title_area {
+    position: relative;
+}
+
+._photography_testmonails_shape {
+    position: absolute;
+    content: "";
+    top: -22px;
+    left: 325px;
+}
+
+._photography_testmonails_top_title {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color3);
+    max-width: 34%;
+    margin: 0 auto 10px;
+}
+
+._photography_testmonails_top_btn {
+    display: inline-block;
+}
+
+._photography_testmonails_top_btn_link {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color6) !important;
+    text-align: center;
+    position: relative;
+    transition: .2s all ease;
+}
+
+._photography_testmonails_top_btn_link::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: var(--color6);
+    transition: .2s all ease;
+}
+
+._photography_testmonails_top_btn_link:hover::before {
+    width: 0;
+    height: 1px;
+}
+
+._photography_testmonails_single_profile {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    border-bottom: 1.5px solid var(--color10);
+    padding: 0 0 43px;
+    margin: 0 0 58px;
+}
+
+._last_profile {
+    margin: 0;
+}
+
+._photography_testmonails_single_profile_bg_img {
+    position: relative;
+}
+
+._photography_testmonails_single_profile_bg_img::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 64px;
+    background-color: var(--color11);
+    border-radius: 4px;
+    top: 20px;
+    right: -35px;
+}
+
+._photography_testmonails_single_profile_img {
+    max-width: 108px;
+}
+
+._photography_testmonails_single_profile_title {
+    font-family: 'Sora';
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color3);
+    font-size: 22px;
+}
+
+._profile_1_title {
+    max-width: 87%;
+}
+
+._profile_2_title {
+    max-width: 100%;
+    font-size: 20px;
+}
+
+._profile_3_title {
+    max-width: 94%;
+}
+
+._photography_testmonails_single_profile_title_span {
+    color: var(--color5);
+}
+
+/*-------------------------
+Photography countdown start
+---------------------------*/
+._photography_countdown_wrapper {
+    margin: 0 0 115px;
+}
+
+._photography_countdown_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+._photography_countdown_list_item {
+    margin: 0 36px 0;
+}
+
+._photography_countdown_list_no {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    color: var(--color3);
+    margin: 0 0 10px
+}
+
+._photography_countdown_list_title {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color6);
+}
+
+/*-------------------------
+Photography our skills start
+---------------------------*/
+._photography_our_skills_wrapper {
+    margin: 0 0 133px;
+}
+
+._photography_our_skills_left_cont {
+    padding: 0 40px 0 0;
+}
+
+._photography_our_skills_btn {
+    margin: 0 0 28px;
+}
+
+._photography_our_skills_btn_link {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color3) !important;
+    position: relative;
+    transition: .2s all ease;
+}
+
+._photography_our_skills_btn_link::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: var(--color6);
+    transition: .2s all ease;
+}
+
+._photography_our_skills_btn_link:hover::before {
+    width: 0;
+    height: 1px;
+}
+
+._photography_our_skills_title_area {
+    position: relative;
+}
+
+._photography_our_skills_title {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    color: var(--color3);
+    max-width: 69%;
+}
+
+._photography_our_skills_shape {
+    position: absolute;
+    content: "";
+    top: -20px;
+    left: -37px;
+}
+
+._photography_our_skills_list_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 7px;
+    margin: 38px 0 0;
+}
+
+._photography_our_skills_list_item_title {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color3);
+}
+
+._photography_our_skills_list_item_percent {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--color3);
+}
+
+._photography_our_skill {
+    background: var(--color12);
+}
+
+._photography_our_skill_bar {
+    background: var(--color3);
+    height: 1px;
+}
+
+/*---------------------
+Photography  Blogs start
+------------------------*/
+._photography_blogs_wrapper {
+    margin: 0 0 130px;
+    position: relative;
+}
+
+._photography_blogs_top_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+
+._photography_blogs_top_title {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+    color: var(--color3);
+    margin: 0 0 18px;
+}
+
+._photography_blogs_top_smtitle {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color6);
+}
+
+._photography_blogs_all_photo_slider_wrap {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+._photography_blogs_all_photo_slider_wrap::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 0;
+    transform: translate(-66%, 22%);
+    width: 534px;
+    height: 513px;
+    background: linear-gradient(132.82deg, #8A9271 -37.01%, #DDCEB7 111.71%);
+    filter: blur(107px);
+    z-index: -1;
+}
+
+._photography_blogs_shape {
+    position: absolute;
+    content: "";
+    top: 120px;
+    left: -38px;
+    z-index: -1;
+}
+
+._photography_blogs_all_photo_img {
+    display: flex;
+    align-items: center;
+    padding: 34px 0;
+}
+
+._photography_blogs_img_1 {
+    transform: rotate(-12.18deg);
+}
+
+._photography_blogs_img_3 {
+    transform: rotate(14.08deg);
+}
+
+._photography_blogs_slider_arrows {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    content: "";
+    bottom: -45px;
+    right: 150px;
+}
+
+._prev_btn {
+    width: 37px;
+    height: 37px;
+    border: 1.5px solid var(--bg3);
+    background-color: var(--bg3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s all ease;
+    margin-right: 15px;
+}
+
+._prev_btn svg path,
+._next_btn svg path {
+    transition: .2s all ease;
+}
+
+._prev_btn:hover svg path,
+._next_btn:hover svg path {
+    stroke: var(--color5);
+}
+
+._next_btn {
+    width: 37px;
+    height: 37px;
+    border: 1.5px solid var(--bg3);
+    background-color: var(--bg3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s all ease;
+}
+
+._photography_blogs_all_photo_slider_cont .is-active ._photography_blogs_single_photo_img {
+    transform: rotate(0deg);
+}
+
+._photography_blogs_single_photo_img {
+    max-width: 90%;
+    padding: 0 0 0 20px;
+}
+
+/*-------------------------
+Photography footer start
+---------------------------*/
+._photography_footer_wrapper {
+    margin: 133px 0 0;
+    padding: 78px 0 82px;
+    background-color: var(--color3);
+}
+
+._photography_footer_logo {
+    margin: 0 0 18px
+}
+
+._photography_footer_title {
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--color13);
+    margin: 0 0 18px
+}
+
+._photography_footer_para {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color4);
+    max-width: 74%;
+}
+
+._photography_footer_video_img_btn {
+    border: 0;
+    position: relative;
+}
+
+
+._photography_footer_video_img_span{
+    position: absolute;
+    content: "";
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+._photography_footer_right_txt {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color4);
+    max-width: 68%;
+}
+
+._photography_footer_social_link_list {
+    margin: 0 0 25px;
+}
+
+._photography_footer_social_link_ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+._photography_footer_social_link_item_link{
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background-color: var(--bg3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s all ease;
+}
+
+._photography_footer_social_link_item_link:hover {
+    background-color: var(--color13);
+}
+
+._photography_footer_social_link_item_link svg path {
+    transition: .2s all ease;
+}
+
+._photography_footer_social_link_item:hover ._photography_footer_social_link_item_link svg path {
+    fill: var(--color2) !important;
+}
+
+._photography_footer_left_cont_menubar {
+    display: none;
+}
+
+/* responsive */
+@media (min-width:1600px) {}
+
+@media (max-width:1399px) {
+    ._photography_hero_right_cont {
+        padding: 0 0 0 20px;
+    }
+
+    ._photography_hero_right_title {
+        text-align: right;
+    }
+
+    ._photography_hero_right_title::before {
+        left: 30px;
+    }
+
+    ._photography_hero_right_para {
+        max-width: 80%;
+    }
+
+    ._photography_hero_right_btn_link {
+        bottom: 23px;
+        left: -14px;
+    }
+
+    ._photography_hero_right_btn_shape_1 {
+        left: 2px;
+    }
+
+    ._photography_hero_right_btn_shape_2 {
+        bottom: 93px;
+        right: 224px;
+    }
+
+    ._photography_features_1_left_title {
+        max-width: 100%;
+    }
+
+    ._photography_features_1_right_title {
+        max-width: 100%;
+        padding: 0 12px 40px;
+    }
+
+    ._photography_features_1_right_cont_shape {
+        bottom: -15px;
+        right: 40px;
+    }
+
+    ._photography_blessed_work_txt {
+        max-width: 58%;
+    }
+
+    ._photography_blessed_work_top_title {
+        max-width: 30%;
+    }
+
+    ._photography_blessed_work_logo_ul {
+        gap: 80px;
+    }
+
+    ._photography_features_2_top_right_para {
+        max-width: 70%;
+    }
+
+    ._photography_features_2_card_right_txt {
+        max-width: 44%;
+    }
+
+    ._photography_features_2_slider_arrows {
+        right: 230px;
+    }
+
+    ._photography_features_2_card_title {
+        font-size: 28px;
+    }
+
+    ._photography_features_2_card_txt {
+        max-width: 90%;
+    }
+
+    ._photography_services_left_para {
+        max-width: 85%;
+    }
+
+    ._profile_1_title {
+        max-width: 83%;
+        font-size: 20px;
+    }
+
+    ._photography_testmonails_single_profile_title {
+        font-size: 16px;
+    }
+
+    ._photography_countdown_list_item {
+        margin: 0 22px 0;
+    }
+
+    ._photography_our_skills_title {
+        max-width: 81%;
+    }
+
+    ._photography_our_skills_title {
+        font-size: 40px;
+    }
+
+    ._photography_our_skills_shape {
+        top: -33px;
+    }
+
+    ._photography_blogs_shape {
+        top: 105px;
+        left: -79px;
+    }
+
+    ._photography_blogs_slider_arrows {
+        bottom: -64px;
+        right: 90px;
+    }
+
+    ._photography_footer_para {
+        max-width: 86%;
+    }
+}
+
+@media (max-width:1199px) {
+    ._photography_hero_shape {
+        top: -23px;
+        left: -62px;
+    }
+
+    ._photography_hero_left_title {
+        font-size: 43px;
+    }
+
+    ._photography_hero_btn_link {
+        font-size: 17px;
+        height: 58px;
+        padding: 0 38px;
+    }
+
+    ._photography_hero_scroll_down_wrap {
+        bottom: -50px;
+        left: 87px;
+    }
+
+    ._photography_hero_right_title {
+        font-size: 25px;
+        margin: 0 0 12px;
+    }
+
+    ._photography_hero_right_para {
+        max-width: 90%;
+    }
+
+    ._photography_hero_right_title::before {
+        top: 11px;
+        left: -14px;
+    }
+
+    ._photography_hero_middle_video_bg_img {
+        top: -45px;
+        right: -37px;
+    }
+
+    ._photography_hero_right_para {
+        max-width: 100%;
+    }
+
+    ._photography_hero_right_btn_shape_2 {
+        bottom: 79px;
+        right: 207px;
+    }
+
+    ._photography_hero_right_btn_shape_1 {
+        top: -68px;
+        left: -38px;
+    }
+
+    ._photography_hero_right_btn_link {
+        bottom: 23px;
+        left: -50px;
+    }
+
+    ._photography_hero_right_btn_link {
+        width: 210px;
+        height: 100px;
+        padding: 0 47px;
+        font-size: 26px;
+    }
+
+    ._photography_hero_middle_cont {
+        position: relative;
+        padding: 0 35px 0 0;
+    }
+
+    ._photography_features_1_left_title {
+        font-size: 24px;
+    }
+
+    ._photography_features_1_wrapper {
+        margin: 50px 0 80px;
+    }
+
+    ._photography_features_1_cont {
+        padding: 16px 54px 10px 100px;
+    }
+
+    ._photography_features_1_right_title {
+        font-size: 16px;
+    }
+
+    ._photography_blessed_work_top_title {
+        max-width: 36%;
+    }
+
+    ._photography_blessed_work_logo_ul {
+        gap: 38px;
+    }
+
+    ._photography_blessed_work_slider_cont .is-active ._photography_blessed_work_img {
+        max-width: 317px;
+        width: 317px;
+        height: 331px;
+        border-radius: 128px;
+    }
+
+    ._photography_blessed_work_txt {
+        max-width: 70%;
+    }
+
+    ._photography_blessed_work_bg_img::before {
+        box-shadow: 0px 19px 92px rgb(246 107 107 / 40%);
+    }
+
+    ._photography_blessed_work_slider_cont .is-active ._photography_blessed_work_video_img {
+        bottom: 0;
+        right: -47px;
+    }
+
+    ._photography_features_2_top_right_para {
+        max-width: 85%;
+    }
+
+    ._photography_features_2_wrapper {
+        margin: 0 0 150px;
+    }
+
+    ._photography_features_2_card_details {
+        padding: 23px 27px;
+    }
+
+    ._photography_features_2_card_title {
+        font-size: 25px;
+    }
+
+    ._photography_features_2_card_price {
+        margin: 8px 0 0;
+    }
+
+    ._photography_features_2_card_txt {
+        max-width: 100%;
+    }
+
+    ._photography_features_2_slider_arrows {
+        right: 160px;
+    }
+
+    ._photography_features_2_card_right_txt {
+        max-width: 53%;
+    }
+
+    ._photography_features_2_card_right_info {
+        bottom: 46px;
+    }
+
+    ._photography_services_left_para {
+        max-width: 100%;
+    }
+
+    ._photography_services_wrapper {
+        margin: 0 0 130px;
+    }
+
+    ._photography_testmonails_shape {
+        top: -22px;
+        left: 290px;
+    }
+
+    ._profile_1_title {
+        max-width: 100%;
+    }
+
+    ._profile_3_title {
+        max-width: 100%;
+    }
+
+    ._photography_testmonails_single_profile {
+        gap: 66px;
+        padding: 0 0 33px;
+        margin: 0 0 40px;
+    }
+
+    ._photography_testmonails_wrapper {
+        margin: 0 0 80px;
+    }
+
+    ._photography_countdown_list_no {
+        font-size: 30px;
+    }
+
+    ._photography_countdown_list_title {
+        font-size: 14px;
+    }
+
+    ._photography_our_skills_title {
+        font-size: 30px;
+        max-width: 78%;
+    }
+
+    ._photography_our_skills_shape svg {
+        height: 73px;
+        width: 249px;
+    }
+
+    ._photography_our_skills_shape {
+        top: -26px;
+    }
+
+    ._photography_our_skills_list_title {
+        margin: 25px 0 0;
+    }
+
+    ._photography_blogs_shape svg {
+        width: 1000px;
+    }
+
+    ._photography_blogs_shape {
+        top: 67px;
+        left: -47px;
+    }
+}
+
+@media (max-width:991px) {
+    ._photography_header_wrap {
+        padding: 50px 0;
+    }
+
+    ._photography_header_nav_wrapper_list {
+        gap: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0 0;
+    }
+
+    ._photography_header_nav_right_cont {
+        display: none;
+    }
+
+    ._photography_hero_left_cont {
+        padding: 0;
+    }
+
+    ._photography_hero_shape svg {
+        width: 294px;
+        height: 73px;
+    }
+
+    ._photography_hero_shape {
+        top: -9px;
+        left: -83px;
+    }
+
+    ._photography_hero_left_title {
+        font-size: 50px;
+    }
+
+    ._photography_hero_btn {
+        margin: 0 0 43px;
+    }
+
+    ._photography_hero_middle_video_bg_img {
+        top: 0;
+        right: 273px;
+    }
+
+    ._photography_hero_scroll_down_wrap {
+        bottom: -50px;
+        left: 77px;
+    }
+
+    ._photography_hero_right_cont {
+        padding: 160px 0 0;
+    }
+
+    ._photography_hero_right_title {
+        text-align: left;
+        margin: 0 0 12px 85px;
+    }
+
+    ._photography_hero_right_para {
+        margin: 0 0 44px;
+    }
+
+    ._photography_hero_right_title::before {
+        top: 11px;
+        left: -66px;
+    }
+
+    ._photography_hero_right_img {
+        margin: 0 0 auto 70px;
+    }
+
+    ._photography_hero_right_btn_link {
+        width: 148px;
+        height: 79px;
+        border-radius: 22px;
+        font-size: 22px;
+        padding: 0 23px;
+    }
+
+    ._photography_hero_right_btn_shape_1 svg {
+        width: 11px;
+        height: 11px;
+    }
+
+    ._photography_hero_right_btn_shape_2 svg {
+        width: 11px;
+        height: 11px;
+    }
+
+    ._photography_hero_right_btn_shape_1 {
+        left: 136px;
+        top: -92px;
+    }
+
+    ._photography_hero_right_btn_shape_2 {
+        left: 18px;
+        right: 0;
+        bottom: 36px;
+    }
+
+    ._photography_hero_middle_img_1 {
+        max-width: 363px;
+    }
+
+    ._photography_hero_right_btn_link {
+        bottom: 23px;
+        left: 8px;
+    }
+
+    ._photography_features_1_left_title {
+        font-size: 20px;
+        margin: 0 0 0 80px;
+    }
+
+    ._photography_features_1_right_title {
+        font-size: 15px;
+    }
+
+    ._photography_features_1_left_title::before {
+        top: 10px;
+    }
+
+    ._photography_features_1_right_cont_shape {
+        bottom: 0px;
+        right: 10px;
+    }
+
+    ._photography_features_1_cont {
+        padding: 50px 50px 59px;
+    }
+
+    ._photography_features_1_right_title {
+        font-size: 15px;
+        padding: 66px 0 33px;
+    }
+
+    ._photography_features_1_middle_cont {
+        justify-content: center;
+        margin: 35px 0 0;
+    }
+
+    ._photography_features_1_right_cont_shape {
+        bottom: -22px;
+        right: 39px;
+    }
+
+    ._photography_blessed_work_wrapper {
+        margin: 0 0 130px;
+    }
+
+    ._photography_blessed_work_slider_cont .is-active ._photography_blessed_work_video_img {
+        bottom: 0;
+        right: 172px;
+    }
+
+    ._photography_blessed_work_top_title {
+        max-width: 52%;
+        font-size: 40px;
+        margin: 0 auto 40px;
+    }
+
+    ._photography_blessed_work_shape svg {
+        width: 290px;
+        height: 70px;
+    }
+
+    ._photography_blessed_work_shape {
+        top: 5px;
+    }
+
+    ._photography_blessed_work_details {
+        margin: 30px 0 0;
+    }
+
+    ._photography_blessed_work_txt {
+        font-size: 25px;
+        max-width: 100%;
+    }
+
+    ._photography_blessed_work_logo_ul {
+        column-gap: 70px;
+        row-gap: 50px;
+    }
+
+    ._photography_features_2_wrapper {
+        margin: 0 0 110px;
+    }
+
+    ._photography_features_2_card {
+        border-radius: 39px;
+    }
+
+    ._photography_features_2_top_right_para {
+        max-width: 100%;
+        margin: 30px auto 0;
+        font-size: 16px;
+    }
+
+    ._photography_features_2_card_title {
+        font-size: 20px;
+    }
+
+    ._photography_features_2_card_smtitle {
+        font-size: 16px;
+    }
+
+    ._photography_features_2_card_txt {
+        font-size: 13px;
+    }
+
+    ._photography_features_2_card_price {
+        font-size: 13px;
+    }
+
+    ._photography_features_2_card_right_txt {
+        font-size: 13px;
+        max-width: 74%;
+    }
+
+    ._photography_features_2_card_right_info {
+        left: 341px;
+    }
+
+    ._photography_features_2_slider_arrows {
+        right: 0;
+        bottom: 0;
+    }
+
+    ._photography_features_2_top_left_title {
+        font-size: 40px;
+        max-width: 32%;
+    }
+
+    ._photography_features_2_shape svg {
+        width: 274px;
+        height: 74px;
+    }
+
+    ._photography_features_2_shape {
+        top: 32px;
+
+    }
+
+    ._photography_services_left_title {
+        font-size: 40px;
+    }
+
+    ._photography_services_left_para {
+        font-size: 14px;
+    }
+
+    ._photography_services_shape svg {
+        width: 255px;
+        height: 71px;
+    }
+
+    ._photography_services_shape {
+        top: 31px;
+    }
+
+    ._photography_services_wrapper {
+        margin: 0 0 90px;
+    }
+
+    ._photography_testmonails_top_title {
+        font-size: 38px;
+    }
+
+    ._photography_testmonails_shape svg {
+        width: 271px;
+        height: 69px;
+    }
+
+    ._photography_testmonails_shape {
+        top: -7px;
+        left: 202px;
+    }
+
+    ._photography_testmonails_wrapper {
+        margin: 0 0 50px;
+    }
+
+    ._photography_services_left_btn {
+        margin: 0 0 70px;
+    }
+
+    ._photography_services_shape {
+        top: -13px;
+        left: 170px;
+    }
+
+    ._photography_countdown_list_item {
+        margin: 0 50px 30px;
+    }
+
+    ._photography_countdown_wrapper {
+        margin: 0 0 80px;
+    }
+
+    ._photography_our_skills_left_cont {
+        padding: 0;
+        margin: 0 0 40px;
+    }
+
+    ._photography_our_skills_shape svg {
+        height: 73px;
+        width: 189px;
+    }
+
+    ._photography_our_skills_shape {
+        top: -20px;
+        left: -35px;
+    }
+
+    ._photography_our_skills_wrapper {
+        margin: 0 0 90px;
+    }
+    ._photography_blogs_shape {
+        top: 67px;
+        left: -48px;
+    }
+    ._photography_blogs_shape svg {
+        /* width: 850px; */
+        width: 764px;
+        height: 261px;
+    }
+
+    ._photography_footer_left_cont {
+        margin: 0 0 40px;
+    }
+
+    ._photography_footer_social_link_ul {
+        justify-content: flex-end;
+    }
+
+    ._photography_footer_right_txt {
+        margin: 0 0 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width:767px) {
+    ._photography_hero_middle_video_bg_img {
+        top: 0;
+        right: 90px;
+    }
+
+    ._photography_hero_shape svg {
+        width: 246px;
+        height: 73px;
+    }
+
+    ._photography_hero_shape {
+        top: -6px;
+        left: -45px;
+    }
+
+    ._photography_blessed_work_slider_cont .is-active ._photography_blessed_work_video_img {
+        bottom: 0;
+        right: 91px;
+    }
+
+    ._photography_blessed_work_top_title {
+        max-width: 70%;
+    }
+
+    ._photography_blessed_work_wrapper {
+        margin: 0 0 110px;
+    }
+
+    ._photography_features_2_card {
+        border-radius: 58px;
+    }
+
+    ._photography_features_2_card_bg_img::before {
+        display: none;
+    }
+
+    ._photography_features_2_card_right_txt {
+        max-width: 100%;
+    }
+
+    ._photography_features_2_card_right_info {
+        display: none;
+    }
+
+    ._photography_features_2_slider_arrows {
+        right: 28px;
+        bottom: -45px;
+    }
+
+    ._photography_features_2_wrapper {
+        margin: 0 0 80px;
+    }
+
+    ._photography_services_shape {
+        top: 38px;
+        left: -32px;
+    }
+
+    ._photography_testmonails_top_title {
+        font-size: 38px;
+        max-width: 52%;
+    }
+
+    ._photography_testmonails_wrapper {
+        margin: 0 0 50px;
+    }
+
+    ._photography_testmonails_shape {
+        top: -13px;
+        left: 122px;
+    }
+
+    ._photography_countdown_wrapper {
+        margin: 0 0 70px;
+    }
+
+    ._photography_blogs_shape svg {
+        width: 600px;
+    }
+    ._photography_blogs_all_photo_img {
+        justify-content: center;
+    }
+    ._photography_footer_social_link_ul {
+        justify-content: flex-start;
+    }
+
+    ._photography_footer_right_txt {
+        margin: 0 auto 0 0;
+        text-align: left;
+    }
+
+    ._photography_footer_video_bg_img {
+        margin: 0 0 67px;
+    }
+
+    ._photography_footer_wrapper {
+        padding: 56px 0 41px;
+    }
+}
+
+@media (max-width:575px) {
+    .navbar-toggler_btn_img {
+        width: 21px;
+        height: 19px;
+    }
+    ._photography_hero_left_title {
+        font-size: 45px;
+        text-align: center;
+        max-width: 59%;
+        margin: 0 auto;
+    }
+
+    ._photography_header_wrap {
+        padding: 30px 0;
+    }
+
+    ._photography_hero_shape {
+        top: -6px;
+        left: 149px;
+    }
+
+    ._photography_hero_btn {
+        margin: 20px 0 43px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ._photography_hero_middle_img_1 {
+        margin: 0 auto;
+    }
+
+    ._photography_hero_middle_video_bg_img {
+        top: 0px;
+        right: 65px;
+    }
+
+    ._photography_hero_scroll_down_wrap {
+        bottom: -44px;
+        left: 134px;
+    }
+
+    ._photography_hero_right_title {
+        text-align: center;
+        max-width: 37%;
+        margin: 0 auto 12px;
+    }
+
+    ._photography_hero_right_para {
+        margin: 0 auto 44px;
+        max-width: 65%;
+    }
+
+    ._photography_features_1_left_title {
+        margin: 0 auto 0;
+        max-width: 42%;
+    }
+
+    ._photography_features_1_right_title {
+        max-width: 44%;
+        margin: 0 auto;
+    }
+
+    ._photography_blessed_work_top_title {
+        max-width: 65%;
+    }
+
+    ._photography_blessed_work_logo_ul {
+        flex-direction: column;
+        gap: 22px;
+    }
+    ._photography_blessed_work_slider_wrap {
+        margin: 57px 0 0;
+    }
+
+    ._photography_blessed_work_details {
+        margin: 20px 0 0;
+    }
+
+    ._photography_blessed_work_txt {
+        font-size: 20px;
+    }
+    ._photography_services_wrapper {
+        margin: 40px 0 90px;
+    }
+
+    ._photography_services_left_title {
+        max-width: 65%;
+        margin: 0 0 33px;
+    }
+
+    ._photography_services_shape {
+        top: 40px;
+        left: -27px;
+    }
+
+    ._photography_services_left_btn {
+        margin: 25px 0 70px;
+    }
+
+    ._photography_services_left_btn_link {
+        font-size: 18px;
+        width: 100%;
+        height: 47px;
+    }
+
+    ._photography_our_skills_title {
+        font-size: 40px;
+        max-width: 47%;
+    }
+
+    ._photography_our_skills_shape svg {
+        height: 73px;
+        width: 223px;
+    }
+
+    ._photography_our_skills_shape {
+        top: -14px;
+        left: -19px;
+    }
+
+    ._photography_our_skills_wrapper {
+        margin: 0 0 60px;
+    }
+
+    ._photography_blogs_top_title {
+        font-size: 40px;
+        margin: 0 0 10px;
+    }
+
+    ._photography_blogs_top_smtitle {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:420px) {
+    ._photography_hero_shape {
+        top: -6px;
+        left: 84px;
+    }
+
+    ._photography_hero_btn_link {
+        font-size: 16px;
+        height: 48px;
+        padding: 0 38px;
+    }
+
+    ._photography_hero_middle_video_bg_img {
+        top: -13px;
+        right: -5px;
+    }
+
+    ._photography_hero_scroll_down_wrap {
+        bottom: -44px;
+        left: 63px;
+    }
+
+    ._photography_hero_right_title {
+        max-width: 38%;
+    }
+
+    ._photography_hero_right_para {
+        max-width: 71%;
+    }
+
+    ._photography_hero_right_img {
+        margin: 0 35px 0 auto;
+    }
+
+    ._photography_hero_right_btn_link {
+        bottom: 28px;
+        left: 45px;
+    }
+
+    ._photography_hero_right_btn_shape_1 {
+        left: 172px;
+        top: -95px;
+    }
+
+    ._photography_hero_right_btn_shape_2 {
+        left: 47px;
+        right: 0;
+        bottom: 38px;
+    }
+
+    ._photography_features_1_left_title {
+        margin: 0 auto 0;
+        max-width: 65%;
+    }
+
+    ._photography_features_1_right_title {
+        max-width: 68%;
+        margin: 0 auto 0 0;
+    }
+
+    ._photography_features_2_card_right_info {
+        bottom: 157px;
+        left: 37px;
+    }
+
+    ._photography_blessed_work_slider_cont .is-active ._photography_blessed_work_video_img {
+        bottom: 0;
+        right: 58px;
+    }
+
+    ._photography_blessed_work_slider_wrap {
+        margin: 35px 0 0;
+    }
+
+    ._photography_services_shape {
+        top: 39px;
+        left: -34px;
+    }
+
+    ._photography_services_left_para {
+        max-width: 85%;
+    }
+
+    ._photography_blessed_work_top_title {
+        max-width: 71%;
+    }
+
+    ._photography_blessed_work_wrapper {
+        margin: 0 0 100px;
+    }
+
+    ._photography_features_1_middle_cont {
+        justify-content: center;
+        flex-direction: column;
+        margin: 35px 0 0;
+    }
+
+    ._photography_features_2_card_txt {
+        max-width: 100%;
+    }
+
+    ._photography_features_2_card_details {
+        padding: 23px 59px;
+    }
+
+    ._photography_features_2_top_right_para {
+        max-width: 92%;
+        margin: 30px 0 0;
+    }
+
+    ._photography_testmonails_single_profile_title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    ._profile_1_title {
+        max-width: 62%;
+    }
+
+    ._profile_2_title {
+        max-width: 66%;
+    }
+
+    ._profile_3_title {
+        max-width: 62%;
+    }
+
+    ._photography_testmonails_single_profile {
+        flex-direction: column;
+        gap: 12px;
+        border: 0;
+        padding: 0;
+    }
+
+    ._photography_testmonails_shape {
+        top: -7px;
+        left: 60px;
+    }
+
+    ._photography_testmonails_top_title {
+        font-size: 38px;
+        max-width: 63%;
+    }
+
+    ._photography_testmonails_wrapper {
+        margin: 0 0 20px;
+    }
+
+    ._photography_countdown_wrapper {
+        margin: 0 0 40px;
+    }
+
+    ._photography_countdown_ul {
+        flex-direction: column;
+    }
+
+    ._photography_countdown_list_item {
+        margin: 0 0 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ._photography_our_skills_title {
+        font-size: 40px;
+        max-width: 65%;
+    }
+
+    ._photography_blogs_shape {
+        top: 126px;
+        left: -8px;
+    }
+
+    ._photography_blogs_shape svg {
+        width: 404px;
+        height: 161px;
+    }
+
+    ._photography_blogs_slider_arrows {
+        bottom: -18px;
+        right: 58px;
+    }
+
+    ._photography_blogs_single_photo_img {
+        max-width: 90%;
+    }
+
+    ._photography_blogs_wrapper {
+        margin: 0 0 60px;
+    }
+
+    ._photography_footer_right_txt {
+        display: none;
+    }
+
+    ._photography_footer_social_link_list {
+        margin: 0;
+    }
+
+    ._photography_footer_social_link_ul {
+        justify-content: center;
+    }
+
+    ._photography_footer_video_bg_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 67px;
+    }
+
+    ._photography_footer_left_cont_menubar {
+        display: block;
+    }
+
+    ._photography_footer_top_left_cont {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ._photography_footer_left_cont_menubar_btn {
+        border: 0;
+    }
+
+    ._photography_footer_wrapper {
+        margin: 30px 0 0;
+    }
+}
+
+@media (max-width:375px) {
+    ._photography_hero_shape {
+        top: -6px;
+        left: 52px;
+    }
+    ._photography_hero_middle_video_bg_img {
+        top: -39px;
+        right: -6px;
+    }
+    ._photography_hero_right_title {
+        max-width: 47%;
+    }
+
+    ._photography_hero_right_para {
+        max-width: 81%;
+    }
+
+    ._photography_hero_right_title {
+        max-width: 43%;
+    }
+
+    ._photography_hero_right_img {
+        margin: 0 8px 0 auto;
+    }
+
+    ._photography_features_1_left_title {
+        margin: 0 auto 0;
+        max-width: 76%;
+    }
+
+    ._photography_features_1_left_title::before {
+        width: 39px;
+        top: 18px;
+        left: -53px;
+    }
+
+    ._photography_features_1_right_title {
+        max-width: 82%;
+    }
+
+    ._photography_blessed_work_top_title {
+        max-width: 80%;
+    }
+
+    ._photography_blessed_work_slider_cont .is-active ._photography_blessed_work_video_img {
+        bottom: -5px;
+        right: 0px;
+    }
+
+    ._photography_blessed_work_txt {
+        max-width: 77%;
+    }
+
+    ._photography_features_2_top_right_para {
+        max-width: 100%;
+    }
+
+    ._photography_features_2_top_right_btn {
+        display: block;
+        margin: 20px 0 0;
+    }
+
+    ._photography_features_2_top_right_btn_link {
+        font-family: 'Sora';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+        text-align: center;
+        color: var(--color3) !important;
+        height: 53px;
+        border: 1.5px solid var(--color5) !important;
+        border-radius: 45px;
+        padding: 0 34px;
+        transition: .2s all ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ._photography_features_2_top_right_btn_link:hover {
+        background-color: var(--color5) !important;
+        color: var(--color1) !important;
+    }
+
+    ._photography_features_2_top_right_btn_link_span {
+        margin: 0 0 0 18px;
+    }
+
+    ._photography_features_2_top_right_btn_link_span svg path {
+        transition: .2s all ease;
+    }
+
+    ._photography_features_2_top_right_btn_link:hover ._photography_features_2_top_right_btn_link_span svg path {
+        stroke: var(--color1);
+    }
+
+    ._photography_features_2_card_right_info {
+        bottom: 224px;
+        left: 26px;
+    }
+
+    ._photography_services_left_para {
+        max-width: 100%;
+    }
+
+    ._photography_testmonails_top_title {
+        font-size: 35px;
+        max-width: 64%;
+    }
+
+    ._photography_testmonails_top_cont {
+        margin: 0 0 48px;
+    }
+
+    ._profile_2_title {
+        max-width: 73%;
+    }
+
+    ._profile_3_title {
+        max-width: 70%;
+    }
+
+    ._photography_our_skills_title {
+        font-size: 35px;
+        max-width: 71%;
+    }
+
+    ._photography_blogs_top_title {
+        font-size: 35px;
+        margin: 0 0 6px;
+    }
+
+    ._photography_blogs_shape svg {
+        width: 350px;
+    }
+
+    ._photography_blogs_shape {
+        left: 0px;
+    }
+
+}
+
+
+/* variable */
+:root {
+    --color1: #FFFFFF;
+    --color2: #000000;
+    --color3: #16181B;
+    --color4: #4F5051;
+    --color5: #F66B6B;
+    --color6: #2E2F30;
+    --color7: #A7A7A7;
+    --color8: #C6C6BD;
+    --color9: #6F7071;
+    --color10: #BAB09F;
+    --color11: #BCB5A8;
+    --color12: #C8BBA6;
+    --color13: #DDCEB7;
+    --bg1: #E4E4E4;
+    --bg2: #2C2C2B;
+    --bg3: #25282C;
+    --bg4: rgba(0, 0, 0, 0.5);
+    --box-shadow1: #D2C8AD;
+    --border-1: #D2CFCF;
+}
